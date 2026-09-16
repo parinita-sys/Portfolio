@@ -1,0 +1,130 @@
+{% extends 'base.html' %}
+
+{% block title %}Home | Parinita Sahu{% endblock %}
+
+{% block content %}
+
+<section class="hero">
+
+    <div class="hero-text">
+
+        <p class="small-heading">HELLO, I'M</p>
+
+        <h1>Parinita Sahu</h1>
+
+        <h2>Computer Science Student & Aspiring Developer</h2>
+
+        <p class="hero-description">
+            I am a Computer Science Engineering student specializing
+            in Big Data Analytics. I enjoy building things with code,
+            learning new technologies and turning ideas into practical
+            projects.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="{% url 'projects' %}">View My Projects</a>
+            <a href="{% url 'contact' %}">Let's Connect</a>
+            <div class="social-links">
+
+    <a href="https://github.com/parinita-sys"
+       target="_blank">
+        GitHub
+    </a>
+
+    <a href="https://www.linkedin.com/in/parinita-sahu-275a43391/"
+       target="_blank">
+        LinkedIn
+    </a>
+
+        </div>
+
+    </div>
+
+    <div class="hero-card">
+
+
+    <div class="profile-circle">
+        PS
+    </div>
+
+    <h3>Parinita Sahu</h3>
+
+    <p class="profile-role">
+        Computer Science Engineering
+    </p>
+
+    <p>
+        Big Data Analytics
+    </p>
+
+    <div class="profile-line"></div>
+
+    <p class="profile-tech">
+        Python • Java • Django
+    </p>
+
+
+    </div>
+
+</section>
+
+
+<section class="intro-section">
+
+    <p class="small-heading">WHAT I DO</p>
+
+    <h2>Building my skills, one project at a time.</h2>
+
+    <div class="skill-grid">
+
+        <div class="skill-card">
+            <h3>💻 Programming</h3>
+
+            <p>
+                Developing my programming skills through C, C++,
+                Java and Python.
+            </p>
+        </div>
+
+
+        <div class="skill-card">
+            <h3>📊 Data & Analytics</h3>
+
+            <p>
+                Exploring data science, analytics and the ways
+                data can be transformed into useful insights.
+            </p>
+        </div>
+
+
+        <div class="skill-card">
+            <h3>🌐 Web Development</h3>
+
+            <p>
+                Learning Django and building web applications
+                using Python, HTML and CSS.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="learning-section">
+
+    <p class="small-heading">CURRENTLY LEARNING</p>
+
+    <h2>Always curious. Always learning.</h2>
+
+    <p>
+        Java &nbsp; • &nbsp;
+        Python &nbsp; • &nbsp;
+        Django &nbsp; • &nbsp;
+        Data Science &nbsp; • &nbsp;
+        Git & GitHub
+    </p>
+
+</section>
+
+{% endblock %}

@@ -1,0 +1,84 @@
+{% extends 'base.html' %}
+
+{% block title %}Contact | Parinita Sahu{% endblock %}
+
+{% block content %}
+
+<section class="page-header">
+
+    <p class="small-heading">GET IN TOUCH</p>
+
+    <h1>Contact Me</h1>
+
+    <p>
+        Have a question, opportunity or project idea?
+        I would love to hear from you.
+    </p>
+
+</section>
+
+<section class="contact-grid">
+
+    <div class="contact-info">
+
+        <h2>Let's Connect</h2>
+
+        <p>
+            I'm always interested in learning new things,
+            collaborating on projects and connecting with
+            other students and developers.
+        </p>
+
+        <div class="contact-item">
+    <h3>Email</h3>
+    <p>
+        <a href="mailto:ps0829@srmist.edu.in">
+            ps0829@srmist.edu.in
+        </a>
+    </p>
+</div>
+
+        <div class="contact-item">
+    <h3>LinkedIn</h3>
+    <p>
+        <a href="https://www.linkedin.com/in/parinita-sahu-275a43391/" target="_blank">
+            LinkedIn Profile
+        </a>
+    </p>
+</div>
+
+        <div class="contact-item">
+    <h3>GitHub</h3>
+    <p>
+        <a href="https://github.com/parinita-sys" target="_blank">
+            GitHub Profile
+        </a>
+    </p>
+</div>
+
+
+    <div class="contact-form-card">
+
+        <h2>Send a Message</h2>
+
+        <form>
+
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" placeholder="Enter your email">
+
+            <label for="message">Your Message</label>
+            <textarea id="message" rows="5"
+                placeholder="Write your message here"></textarea>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+
+    </div>
+
+</section>
+
+{% endblock %}
